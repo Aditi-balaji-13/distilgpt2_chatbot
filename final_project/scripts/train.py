@@ -29,7 +29,7 @@ def setup_device():
         print("Using CPU.")
     return device
 
-def train_model(model, train_loader, device, optimizer, num_epochs=1):
+def train_model(model, train_loader, device, optimizer, num_epochs=5):
     model.to(device)
     model.train()
     for epoch in range(num_epochs):
