@@ -17,4 +17,11 @@ def load_model_and_tokenizer():
             tokenizer.add_special_tokens({'pad_token': '[PAD]'})
             model.resize_token_embeddings(len(tokenizer))
 
+    # Ensure padding on the left for decoder-only architectures
+    tokenizer.padding_side = 'left'
+
+    print("EOS Token:", tokenizer.eos_token)
+    print("Current Pad Token:", tokenizer.pad_token)
+    print("Padding side set to:", tokenizer.padding_side)
+
     return tokenizer, model

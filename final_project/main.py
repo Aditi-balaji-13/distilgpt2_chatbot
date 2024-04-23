@@ -32,7 +32,7 @@ def main():
     optimizer = AdamW(model.parameters(), lr=5e-5)
 
     # Train the model
-    train_model(model, train_loader, device, optimizer, num_epochs=5)
+    train_model(model, train_loader, device, optimizer, num_epochs=1)
 
     # Evaluate the model
     evaluate_model(model, valid_loader, device)
