@@ -39,7 +39,14 @@ def main():
 
     #Save the model
     model_save_path = '/content/distilgpt2_chatbot/final_project/saved_models/model_weights.pth'
+    directory = os.path.dirname(model_save_path)
+
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    # Now save the model
     torch.save(model.state_dict(), model_save_path)
+
 
     # Setup generator and generate responses
     generator = setup_generator(device)
