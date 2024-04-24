@@ -27,9 +27,12 @@ def generate_response(model, tokenizer, context, max_length, temperature):
         num_return_sequences=1,
         temperature=temperature
     )
+    print(f"Context: {context}")  # Debug print
     generated_responses = generator(context)
     response = generated_responses[0]['generated_text']
+    print(f"Generated response: {response}")  # Debug print
     return response
+
 
 def main():
     st.title("Chatbot Interface")
