@@ -12,9 +12,6 @@ This repository contains a simple chatbot built using Hugging Face's `distilgpt2
 
 ---
 
-
----
-
 ## 💡 Features
 
 - Lightweight and efficient using `distilgpt2`
