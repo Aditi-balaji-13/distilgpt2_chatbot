@@ -12,27 +12,6 @@ This repository contains a simple chatbot built using Hugging Face's `distilgpt2
 
 ---
 
-## 🚀 How to Run
-
-1. **Clone the Repository**  
-'''
-git clone https://github.com/Aditi-balaji-13/distilgpt2_chatbot.git
-cd distilgpt2_chatbot
-'''
-
-2. **Install Requirements**
-'''
-pip install -r requirements.txt
-
-'''
-3. **Run the Chatbot**
-'''
-python chatbot.py
-'''
-
-
-4. **Interact**  
-Enter any message, and get a generated response from the model!
 
 ---
 
@@ -49,21 +28,14 @@ Enter any message, and get a generated response from the model!
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
 - Python
 - PyTorch
+- Streamlit
 
 ---
 
 ## 📌 Notes
 
-- The model is not fine-tuned and may generate generic or incoherent responses.
+- The model is fine-tuned but may generate generic or incoherent responses.
 - Ideal as a baseline or prototype for more advanced chatbot pipelines (e.g., RAG, instruction tuning, etc.).
-
----
-
-## ✨ Future Improvements
-
-- Add a front-end interface (e.g., Streamlit)
-- Fine-tune on domain-specific data
-- Integrate with speech-to-text and text-to-speech APIs
 
 ---
 
