@@ -38,5 +38,6 @@ This repository contains a simple chatbot built using Hugging Face's `distilgpt2
 
 ## 👩🏻‍💻 Author
 
-Aditi Balaji – [LinkedIn](https://www.linkedin.com/in/aditibalaji) | [GitHub](https://github.com/Aditi-balaji-13)
+Aditi Balaji – [LinkedIn](https://www.linkedin.com/in/aditibalaji) | [GitHub](https://github.com/Aditi-balaji-13), \
+Anekha Sokhal
 
